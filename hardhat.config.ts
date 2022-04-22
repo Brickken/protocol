@@ -57,9 +57,9 @@ export default {
       //accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },
-  etherscan: {
-    // Your API key for Etherscan
-    // Obtain one at https://etherscan.io/
-    apiKey: `${process.env.ETHERSCAN_API_KEY}`
-  }
+  // etherscan: {
+  //   // Your API key for Etherscan
+  //   // Obtain one at https://etherscan.io/
+  //   apiKey: `${process.env.ETHERSCAN_API_KEY}`
+  // }
 };
