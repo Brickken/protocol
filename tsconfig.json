@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "strict": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noImplicitAny": false
+    },
+    "definitions": {
+        "tsNodeDefinition": {
+            "properties": {
+                "ts-node": {
+                    "description": "ts-node options.  See also: https://typestrong.org/ts-node/docs/configuration\n\nts-node offers TypeScript execution and REPL for node.js, with source map support.",
+                    "properties": {
+                        "transpileOnly": {
+                            "default": true,
+                            "description": "Use TypeScript's faster `transpileModule`.",
+                            "type": "boolean"
+                        },
+                    }
+                }
+            }
+        }
+    }
+}
